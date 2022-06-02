@@ -10,7 +10,7 @@ int main() {
         cout << "Enter the apartment number: ";
         cin >> apartmentNumber;
         apartmentNumber--;
-        if (apartmentNumber < 0 || apartmentNumber > 10) {
+        if (apartmentNumber < 0 || apartmentNumber > 9) {
             cout << "Incorrect input!";
         } else {
             cout << house[apartmentNumber] << endl;
